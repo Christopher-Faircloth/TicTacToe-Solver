@@ -1,0 +1,52 @@
+.TicTacToe {
+    text-align: center;
+  }
+.TicTacToe-header {
+    background-image: url('header.png');
+    background-repeat: no-repeat;
+    background-color:#d09292;
+    min-height: 25vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(50px + 2vmin);
+}
+.ttt-board-body {
+    background: rgb(116, 184, 184);
+    background-color: #a94c4c;
+    height: 600px;
+}
+
+.ttt-board-Layout {
+    border: 5px solid white;
+    border-collapse:collapse;
+    background-color: #d09292;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: center;
+    table-layout: fixed;
+}
+.ttt-board-footer {
+    min-height: 15vh;
+    background-color: #a94c4c;
+  }
+.ttt-button {
+    width: 100%;
+    height: 100%;
+    color: rgba(89, 36, 36, 0);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    font-size: flex;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+.ttt-button-design {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(116, 116, 116, 0);
+  }
