@@ -1,3 +1,4 @@
+#code by Ryan Fitzgerald
 class TicTacToe:
     def __init__(self):
         self.new_game()

@@ -1,0 +1,77 @@
+.Select {
+    text-align: center;
+  }
+  
+  .Select-header {
+    min-height: 25vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(50px + 2vmin);
+  }
+
+  
+  .Select .carousel .slide button {
+    width: 500px;  /* Adjust the size */
+    height: 250px;
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 1.5rem; /* Adjust button font size */
+  }
+ 
+
+  .connect4-button {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .ticTacToe-button {
+  background-color: rgb(103, 160, 159);
+}
+  .styled-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .Select-link {
+    color: #61dafb;
+  }
+
+  .Select .carousel .thumb {
+    width: 500px !important;  
+    height: 500px !important; 
+  }
+  
+  .Select .carousel .thumb img {
+    object-fit: cover !important; 
+    width: 100% !important;       
+    height: 100% !important;      
+  }
+  
+  .Select .carousel .thumbs-wrapper {
+    margin-top: 10px !important;  
+  }
+
+  .Select .carousel .control-arrow {
+    background-color: rgba(0, 0, 0, 0.5);  /* Adjust background color */
+    border-radius: 25%;  /* Make the arrows circular */
+    width: 435px; 
+    height: 300px;  
+    top: 50%;  
+    transform: translateY(-50%);
+  }
+  
+  /* Style the arrow symbols */
+  .Select .carousel .control-arrow:before {
+    font-size: 2rem; 
+    color: white;     
+  }

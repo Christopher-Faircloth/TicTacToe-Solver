@@ -1,1 +1,6 @@
 Flask
+flask-cors
+Flask-SQLAlchemy
+pytz
+pytest
+requests
