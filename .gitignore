@@ -1,0 +1,17 @@
+
+.DS_Store
+
+.venv/
+
+__pycache__/
+
+build/
+
+.vscode/
+
+.env
+
+*.db
+
+.temp_db_files/
+.ruff_cache/
