@@ -1,0 +1,10 @@
+/* Home.css */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
